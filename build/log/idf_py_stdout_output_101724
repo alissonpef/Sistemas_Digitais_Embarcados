@@ -1,0 +1,37 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/alisson/Trabalho_1/build/bootloader/esp-idf/esptool_py && /home/alisson/.espressif/python_env/idf5.3_py3.12_env/bin/python /home/alisson/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/alisson/Trabalho_1/build/bootloader/bootloader.bin
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/alisson/Trabalho_1/main/main.c: In function 'app_main':
+/home/alisson/Trabalho_1/main/main.c:232:5: warning: 'esp_vfs_dev_uart_use_nonblocking' is deprecated: Please use uart_vfs_dev_use_nonblocking() instead [-Wdeprecated-declarations]
+  232 |     esp_vfs_dev_uart_use_nonblocking(UART_NUM_0);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/alisson/Trabalho_1/main/main.c:14:
+/home/alisson/esp/esp-idf/components/vfs/include/esp_vfs_dev.h:18:6: note: declared here
+   18 | void esp_vfs_dev_uart_use_nonblocking(int uart_num) __attribute__((deprecated("Please use uart_vfs_dev_use_nonblocking() instead")));
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alisson/Trabalho_1/main/main.c:233:5: warning: 'esp_vfs_dev_uart_set_rx_line_endings' is deprecated: Please use uart_vfs_dev_port_set_rx_line_endings() instead [-Wdeprecated-declarations]
+  233 |     esp_vfs_dev_uart_set_rx_line_endings(ESP_LINE_ENDINGS_CR);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alisson/esp/esp-idf/components/vfs/include/esp_vfs_dev.h:40:6: note: declared here
+   40 | void esp_vfs_dev_uart_set_rx_line_endings(esp_line_endings_t mode) __attribute__((deprecated("Please use uart_vfs_dev_port_set_rx_line_endings() instead")));
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alisson/Trabalho_1/main/main.c:234:5: warning: 'esp_vfs_dev_uart_set_tx_line_endings' is deprecated: Please use uart_vfs_dev_port_set_tx_line_endings() instead [-Wdeprecated-declarations]
+  234 |     esp_vfs_dev_uart_set_tx_line_endings(ESP_LINE_ENDINGS_CRLF);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alisson/esp/esp-idf/components/vfs/include/esp_vfs_dev.h:56:6: note: declared here
+   56 | void esp_vfs_dev_uart_set_tx_line_endings(esp_line_endings_t mode) __attribute__((deprecated("Please use uart_vfs_dev_port_set_tx_line_endings() instead")));
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable project-name.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/alisson/Trabalho_1/build/project-name.bin
+[9/9] cd /home/alisson/Trabalho_1/build/esp-idf/esptool_py && /home/alisson/.espressif/python_env/idf5.3_py3.12_env/bin/python /home/alisson/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/alisson/Trabalho_1/build/partition_table/partition-table.bin /home/alisson/Trabalho_1/build/project-name.bin
+project-name.bin binary size 0x310d0 bytes. Smallest app partition is 0x100000 bytes. 0xcef30 bytes (81%) free.

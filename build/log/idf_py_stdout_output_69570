@@ -1,0 +1,395 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Oct 14 2024 17:07:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ae8ch ( 44684) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001aeb4 vaddr=3ffb0000 size=02374h (  9076) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001d230 vaddr=40080000 size=02de8h ( 11752) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16fach ( 94124) map[0m
+[0;32mI (166) esp_image: segment 4: paddr=00036fd4 vaddr=40082de8 size=0ac80h ( 44160) load[0m
+[0;32mI (191) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (191) boot: Disabling RNG early entropy source...[0m
+[0;32mI (203) cpu_start: Multicore app[0m
+[0;32mI (211) cpu_start: Pro cpu start user code[0m
+[0;32mI (211) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (211) app_init: Application information:[0m
+[0;32mI (214) app_init: Project name:     project-name[0m
+[0;32mI (219) app_init: App version:      1[0m
+[0;32mI (224) app_init: Compile time:     Oct 14 2024 17:07:00[0m
+[0;32mI (230) app_init: ELF file SHA256:  d3613c2b4...[0m
+[0;32mI (235) app_init: ESP-IDF:          v5.3.1[0m
+[0;32mI (240) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (244) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (249) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (254) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (262) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (267) heap_init: At 3FFB2C48 len 0002D3B8 (180 KiB): DRAM[0m
+[0;32mI (274) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (280) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 4008DA68 len 00012598 (73 KiB): IRAM[0m
+[0;32mI (294) spi_flash: detected chip: generic[0m
+[0;32mI (297) spi_flash: flash io: dio[0m
+[0;33mW (301) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (315) main_task: Started on CPU0[0m
+[0;32mI (325) main_task: Calling app_main()[0m
+[0;32mI (325) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| In[0;32mI (335) main_task: Returned from app_main()[0m
+Valor calibrado: 13.62 cm
+Opção inválida. Tente novamente.
+Valor calibrado: 13.62 cm
+Valor calibrado: 13.60 cm
+Valor calibrado: 14.02 cm
+Distância atual: 12.34 cm (Alteração de 11.93%)
+Distância atual: 15.22 cm (Alteração de 11.91%)
+Distância atual: 11.93 cm (Alteração de 21.63%)
+Distância atual: 13.97 cm (Alteração de 17.05%)
+Distância atual: 11.10 cm (Alteração de 10.06%)
+Distância atual: 12.40 cm (Alteração de 11.65%)
+Distância atual: 13.97 cm (Alteração de 19.65%)
+Distância atual: 10.21 cm (Alteração de 11.77%)
+Distância atual: 10.59 cm (Alteração de 10.23%)
+Distância atual: 27.62 cm (Alteração de 160.91%)
+Distância atual: 14.02 cm (Alteração de 49.25%)
+Distância atual: 12.71 cm (Alteração de 14.70%)
+Distância atual: 9.79 cm (Alteração de 22.40%)
+Distância atual: 11.52 cm (Alteração de 17.61%)
+Distância atual: 13.62 cm (Alteração de 10.34%)
+Distância atual: 11.36 cm (Alteração de 16.58%)
+Distância atual: 30.64 cm (Alteração de 192.27%)
+Distância atual: 10.31 cm (Alteração de 66.35%)
+Distância atual: 11.53 cm (Alteração de 11.87%)
+Distância atual: 9.02 cm (Alteração de 21.82%)
+Distância atual: 12.41 cm (Alteração de 37.67%)
+Distância atual: 14.02 cm (Alteração de 12.92%)
+Distância atual: 13.19 cm (Alteração de 11.56%)
+Distância atual: 14.84 cm (Alteração de 12.55%)
+Distância atual: 7.93 cm (Alteração de 46.57%)
+Distância atual: 10.43 cm (Alteração de 35.04%)
+Distância atual: 16.14 cm (Alteração de 53.19%)
+Distância atual: 8.50 cm (Alteração de 47.33%)
+Distância atual: 8.50 cm (Alteração de 10.04%)
+Distância atual: 9.91 cm (Alteração de 10.58%)
+Distância atual: 8.17 cm (Alteração de 23.18%)
+Distância atual: 13.62 cm (Alteração de 65.27%)
+Distância atual: 5.93 cm (Alteração de 56.40%)
+Distância atual: 3.55 cm (Alteração de 40.12%)
+Distância atual: 20.16 cm (Alteração de 535.33%)
+Distância atual: 27.67 cm (Alteração de 37.30%)
+Distância atual: 3087.12 cm (Alteração de 10891.59%)
+Distância atual: 78.45 cm (Alteração de 97.46%)
+Distância atual: 28.12 cm (Alteração de 64.15%)
+Distância atual: 8.97 cm (Alteração de 68.12%)
+Distância atual: 3085.95 cm (Alteração de 34320.20%)
+Distância atual: 3.60 cm (Alteração de 99.88%)
+Distância atual: 3.81 cm (Alteração de 10.50%)
+Distância atual: 12.40 cm (Alteração de 218.14%)
+Distância atual: 14.14 cm (Alteração de 14.05%)
+[2J[H
+Menu:
+1 - Calibrar
+2 - Mostrar valor calibrado
+3 - Mostrar diferença
+Escolha uma opção: Valor calibrado: 14.16 cm
+Valor calibrado: 14.16 cm
+Distância atual: 13.72 cm
+Diferença em relação ao valor calibrado: 0.43 cm
+Distância atual: 14.14 cm
+Diferença em relação ao valor calibrado: 0.02 cm
+[2J[H
+Menu:
+1 - Calibrar
+2 - Mostrar valor calibrado
+3 - Mostrar diferença
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Tente novamente.
+Opção inválida. Ten

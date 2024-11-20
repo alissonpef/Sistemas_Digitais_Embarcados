@@ -1,0 +1,56 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d841b: task_wdt_timeout_handling at /home/alisson/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d87e0: task_wdt_isr at /home/alisson/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40082d7d: _xt_lowint1 at /home/alisson/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d42d9: uart_tx_char at /home/alisson/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:168
+0x400d4aa3: uart_write at /home/alisson/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:223
+0x400d59c5: esp_vfs_write at /home/alisson/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000182a: write in ROM
+0x400d5531: console_write at /home/alisson/esp/esp-idf/components/esp_vfs_console/vfs_console.c:67
+0x400d59c5: esp_vfs_write at /home/alisson/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d98f9: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400dd8eb: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x400dd2c9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x400d9ad9: vprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c:34
+0x400e4f95: esp_log_writev at /home/alisson/esp/esp-idf/components/log/log.c:210
+0x4008b219: esp_log_write at /home/alisson/esp/esp-idf/components/log/log.c:220
+0x400d51bb: uart_read_bytes at /home/alisson/esp/esp-idf/components/esp_driver_uart/src/uart.c:1492 (discriminator 1)
+0x400d61c2: menu_task at /home/alisson/Trabalho_1/main/main.c:166
+0x40085e69: vPortTaskWrapper at /home/alisson/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d841b: task_wdt_timeout_handling at /home/alisson/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d87e0: task_wdt_isr at /home/alisson/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40082d7d: _xt_lowint1 at /home/alisson/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d42f1: uart_ll_get_txfifo_len at /home/alisson/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:408
+ (inlined by) uart_tx_char at /home/alisson/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:170
+0x400d4aa3: uart_write at /home/alisson/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:223
+0x400d59c5: esp_vfs_write at /home/alisson/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000182a: write in ROM
+0x400d5531: console_write at /home/alisson/esp/esp-idf/components/esp_vfs_console/vfs_console.c:67
+0x400d59c5: esp_vfs_write at /home/alisson/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d98f9: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400dd8eb: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x400dd2c9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x400d9ad9: vprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c:34
+0x400e4f95: esp_log_writev at /home/alisson/esp/esp-idf/components/log/log.c:210
+0x4008b219: esp_log_write at /home/alisson/esp/esp-idf/components/log/log.c:220
+0x400d51bb: uart_read_bytes at /home/alisson/esp/esp-idf/components/esp_driver_uart/src/uart.c:1492 (discriminator 1)
+0x400d61c2: menu_task at /home/alisson/Trabalho_1/main/main.c:166
+0x40085e69: vPortTaskWrapper at /home/alisson/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+E

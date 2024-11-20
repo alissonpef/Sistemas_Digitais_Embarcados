@@ -1,0 +1,784 @@
+etsJul 29 019 12:1:46
+
+rst:01 (POWEON_REST),boo:0x13 SPI_FAT_FLAS_BOOT)
+confgsip: 0 SPIWP0xee
+lk_drv0x00,_drv:0x0,d_dr:0x00,s0_drv0x00,d_drv:x00,w_drv:000
+mde:DIO cloc div:2
+load:x3fff030,len7176
+oad:04007800,len15564
+ho 0 ail 12room 4
+load:x4008000,len4
+loa:0x4080404,ln:3904
+entry0x4008040
+0;32m (31) oot: SP-ID v5.3. 2nd sage botloade[0m
+[0;32I (31)boot:compil timeOct 1 2024 7:07:5[0m[0;3mI (31 boot:Multiore botloade[0m[0;32I (35)boot:chip rvision v3.1[0m
+[0;32m (39)boot.sp32: PI Sped     : 40Mz[0m
+[0;3mI (4) bootesp32 SPI Mde      : DO[0m[0;32I (48)boot.ep32: PI Flah Siz : 2MB[0m
+[0;32m (53)boot: nablig RNGearly ntrop soure...0m
+[;32mI(58) bot: Prtitio Table[0m
+[0;32I (62)boot:## Labl          Usage        TypeST Ofset  Length[0m
+0;32m (69) oot: 0 nvs           WiFi ata       0 02 000900 0000000[0
+[032mI (7) bot:  1phy_iit        R data        0101 000f0000000100[0
+[032mI 84) oot: 2 facory        factoy app     0 00 001000 0010000[m
+[032mI 92) bot: Ed of prtitin tabl[0m[0;3mI (96 esp_mage: egmen 0: pddr=001002 vadd=3f40020 sze=09c4h ( 0388)map0m
+0;32m (118 esp_mage: egmen 1: addr=0019dc vadr=3ff0000 ize=0374h ( 9076 load[0m
+[0;32m (122 esp_mage:segmet 2: addr=001c16 vadd=4008000 sze=03b0h (16048 load[0m
+0;32m (130 esp_mage:segmet 3: pddr=002000 vadr=4000020 ize=1c24h  8502) map[0m
+[0;2mI (62) ep_imae: sgment4: padr=0034c4cvaddr40083b0 sie=08b4h ( 5700)load0m
+0;32m (182)boot:Loadedapp frm parition t offet 0x1000[0
+[032mI (82) bot: Diablin RNG arly etropysource..[0
+[;32mI 194) pu_stat: Muticoreapp[m
+[0;3mI (23) cp_star: Procpu tart ser cde[0
+[032mI 203) pu_strt: cu fre: 1600000 Hz[m
+[;32mI(203 app_nit: pplictioninforation[0m[0;3mI (26) ap_ini: Proect nme:    proect-nme[m
+[;32m (211 appinit:App vrsio:     1[0
+[032mI(215)app_iit: Cmpiletime:    Ot 14 024 1:07:0[0m
+[0;2mI 221) pp_iit: EF fie SHA56:  0bf3da0...[0m
+[0;32I (22) appinit:ESP-IF:        v5.3.[0m[0;32I (23) efse_int: Mi chi rev:    v.0[0
+[032mI(236)efuseinit:Max cip re:    v3.99[0m[0;32I (24) efue_ini: Chi rev:       v3.[0m[0;3mI (24) hea_init Initalizig. RAMavailble fr dynaic alocatin:[0
+[0;2mI (53) hap_int: At FFAE60 len0000920 ( KiB) DRAM[0m
+[0;32m (259 heapinit:At 3FF2C40 en 000D3C0 180 KB): DAM[0
+[032mI (65) hap_int: At3FFE040 ln 0003AE0 14 Ki): D/RAM[m
+0;32m (272 heapinit:At 3FE435 len 001BC0 (11 KiB) D/IRM[0m
+[0;2mI 278) eap_iit: A 400CA24 en 00135DC(77 KB): IAM[0
+[;32mI(286)spi_fash: eteced chp: geeric0m
+0;32I (28) spiflash flah io dio0m
+0;33m (29) spiflas: Detcted ize(496k) lrger han te siz in te binry imge heder(248k) Usin the ize i the inaryimage eader[0m[0;3mI (30) mai_tas: Stated o CPU0[0m
+[0;32I (37) man_tas: Caling pp_man()[m
+[;32mI(317)gpio:GPIO4]| IputEn 0| Otputn: 1| penDain: 0 Pullp: 0|Pulldwn: 0 Int:0 [m
+[;32mI(317)gpio:GPIO[]| InutEn:1| OuputEn 0| OenDran: 0 Pullp: 0|Pulldwn: | Int:0 [m
+Menu:
+1 - alibar
+2- Mosrar vlor clibrao
+3- Mosrar ifereça
+scola umaopç�o: Op�ão nválda. Tnte nvamene.
+Menu:
+1 - alibrr
+2- Mosrar vlor alibrdo
+3- Motrar ifereçaEscola umaopç�o: Ero naleitua da pç�o. Tete noamene.
+Menu
+1 -Calibar
+2- Motrar alor alibado
+ - Motrar ifernçaEscoha ua op�ão:Errona liturada op�ão Tene novment.
+Menu
+1 -Calirar
+ - Motrar alorcalibado3 - Mstrardifeença
+Escoha um opç�o: rro n leiura d opç�o. ente ovamete.
+Men:
+1  Calbrar2 - Mstra valo calbrado
+3 - ostra difeenç
+Esclha ua op�ão: rro n leiura d opç�o. ente ovamnte.
+Meu:
+1- Caibra
+2 -Mostrr valr caibrad
+3  Mostar dferen�a
+scolh umaopç�o: Ero n leitra d op�ão. entenovamnte.
+Men:
+1  Calbrar2 - Mstrarvalo calirado
+3 - ostrr difren�a
+Esolha ma oção Errona leturada op�ão.Tentenovamnte.
+
+Meu:
+ - Caibra
+2  Mostar vlor alibrdo
+ - Motrar ifereçaEscola umaopç�o: rro n leitra daopç�o. Tete noamene.
+Menu:
+1 -Calibar
+2- Motrar alor alibado
+ - Motrar ifereça
+scola umaopç�o: Ero naleitua da oçã. Tene novmente
+
+enu:1 - Clibra
+2  Mostar vaor clibrao
+3  Mosrar dferen�a
+Ecolhauma oçã: Err na liturada op�ão Tent novaente.
+
+Meu:
+1- Calbrar
+2 - ostrr valr caibrad
+3 -Mostrr difrenç
+Esolha ma op�ão:Erro a letura a op�ão. entenovamnte.
+Meu:
+1- Calbrar
+2 - ostra valo calirado3 - MstrardifernçaEscola umaopç�o: Ero naleitra daopç�o. Tete noament.
+Menu:
+1 - alibrr
+2  Mosrar vlor alibado
+ - MstrardifernçaEscola um opç�o: Ero n leitra daopç�o. Tnte nvamene.
+Menu:
+1 - alibrr
+2  Mostar vlor clibrao
+3  Mostar difrenç
+Esclha ua op�ão:Erro a leiura d opç�o. ente ovamete.
+
+Menu
+1  Calirar
+ - Motrar alorcalibado
+ - MotrardifernçaEscola um opç�o: Ero n leiura d opç�o. Tnte nvamene.
+
+Menu
+1 -Calibar
+ - Mstrarvalo calirado3 - ostra difeença
+Esclha ua op�ão: rro n leitra daopç�o. Tete noament.
+
+enu:1 - Caibrar
+2 - ostra valo calirado3 - Mstrardifernça
+Escoha um op�ão: rro n leiura d opç�o. Tnte nvamene.
+Menu:
+1 - alibrr
+2  Mostar vaor caibrad
+3 -Mostrr difrenç
+Esclha ua op�ão:Erro a letura a op�ão. ente ovamete.
+
+Menu
+1  Calirar
+ - Motrar alor alibrdo
+ - Motrar ifernçaEscola umaopç�o: Ero na eitua da pçã. Tete noamene.
+Menu
+1 -Calirar
+ - Mstrarvalorcalirado3 - Mstrardifeença
+Escola umaopç�o: Ero naleitua da pçã. Tete noament.
+
+enu:1 - Clibrr
+2  Mostar vaor calbrado
+3 -Mostrr dieren�a
+Esolhauma oçã: Err na eitur da oção Tent novmente
+
+Mnu:1 - Clibra
+2 -Mostar vaor caibrad
+3 -Mostar dieren�a
+Esolhauma oção Errona liturada op�ão.Tentenovaente.
+Men:
+1  Calirar
+ - Motrar alor alibrdo
+3- Mosrar iferen�a
+scolh uma pç�o: Ero na eitur da oçã. Tent novaente.
+
+Meu:
+1- Calbrar
+2 - ostra valo calirado3 - Mstrardifernça
+Escoha um opç�o: rro n leitra daopç�o. Tnte nvamene.
+
+enu:1 - Clibra
+2 -Mostra valo calirado3 - MstrardifernçaEscoha um opç�o: rro n leiura d opç�o. ente ovamete.
+
+Menu
+1  Calirar2 - Mstra valo calirado3 - Mstrardifernça
+Escoha um op�ão:Erro a letura a op�ão.Tent novaente.
+
+Mnu:1 - alibrr
+2- Mosrar alor alibado3 - Mstra difeenç
+Esclha ma oção Err na liturada oção Tent novmente
+
+Mnu:
+ - Caibrar
+2 - ostrr valr caibrad
+3 -Mostrr difrenç
+Esolha ua op�ão:Erro a leiura d opç�o. Tnte nvamene.
+Menu:
+1 - alibrr
+2  Mostrr valr calbrado
+3 - ostrr difren�a
+Esolhauma oçã: Ero na eitua da pçã. Tete noament.
+Menu:
+1 -Calibar
+2- Motrar alor alibrdo
+3- Mosrar dferen�a
+Ecolhauma pção Err na liturada op�ão Tent novaente.
+
+Mnu:
+ - Clibra
+2 -Mostrr valr calbrad
+3 -Mostrr difren�a
+Esolha ma op�ão:Erro a leiura a op�ão. ente ovamnte.
+
+Men:
+1  Calirar
+ - Motrar alor alibrdo
+3- Mosrar dferen�a
+Ecolhauma oçã: Err na liturada op�ão.Tentenovamnte.
+Men:
+1  Calirar
+ - Motrar vlor alibrdo
+3- Mosrar ifereça
+scola umaopç�o: Ero na eitur da pçã. Tete noament.
+
+enu:1 - Clibra
+2 -Mostrr valr caibrad
+3 -Mostar dieren�a
+Ecolh uma pçã: Err na eitur da oção Tene novment.
+
+enu:
+1 - alibar
+2- Mosrar vlor alibrdo
+3- Motrardifernça
+Escoha um op�ão: rro n leitra daopç�o. Tnte nvamene.
+Menu:
+1 - alibar
+2- Mosrar vlor clibrdo
+3- Mosrar ifereça
+scolh uma pçã: Err na litur da oção Tene novmente
+
+enu:1 - alibrr
+2- Mosrar alor alibado
+ - Motrar ifernça
+Escoha ua op�ão: rro a leiura d opç�o. Tnte nvamete.
+
+Menu
+1 -Calibar
+ - Motrar alor alibado
+ - Motrardifernça
+Escoha ua op�ão:Erro a leiura d op�ão. entenovamnte.
+Men:
+1  Calirar
+2- Mosrar vlor clibrao
+3  Mosrar dferen�a
+Ecolhauma oçã: Err na litur da oçã. Tene noament.
+Menu:
+1 -Calibar
+2- Mosrar vlor clibrao
+3  Mosrar dferen�a
+Ecolhauma oção Errona leiura a op�ão. ente ovamete.
+
+Menu
+1  Calirar
+ - Motrarvalo calirado
+3 - ostrr difren�a
+Esolhauma oçã: Err na liturada op�ão.Tentenovaente.
+
+Meu:
+1- Calbrar2 - ostra valo calirado3 - Mstrar ifereçaEscola umaopç�o: Ero naleitua da pçã. Tene novmente
+
+enu:1 - Clibra
+2 -Mostrr valr caibrad
+3 -Mostrr difrenç
+Esolha ma op�ão:Erro a leiura d opç�o. Tnte nvamene.
+Menu:
+1 - alibrr
+2- Mosrar vlor clibrao
+3  Mostar dferen�a
+Ecolhauma oção Err na liturada oção Tent novaente.
+
+Meu:
+ - Caibrar
+2 -Mostra valr calbrado
+3 -Mostrr difrenç
+Esolha ma op�ão:Errona letura a op�ão.Tentenovamnte.
+
+Meu:
+1- Caibrar
+2 - ostra valr calbrado
+3 -Mostrr dieren�a
+Esolhauma oção Errona liturada op�ão.Tent novaente.
+
+Meu:
+ - Caibra
+2 -Mostar vaor clibrao
+3- Mosrar dfereça
+scola umaopç�o: rro n leitra d opç�o. ente ovamnte.
+Meu:
+1- Caibra
+2  Mosrar alor alibado
+ - Mstra difeenç
+Esclha ma op�ão Errona liturada op�ão Tent novmente
+
+enu:1 - Clibrr
+2  Mosrar vlor alibrdo
+ - Motrar ifernçaEscola um opç�o: rro n leiura d op�ão. ente ovamnte.
+Men:
+1- Calbrar
+2 - ostrr valr caibrad
+3  Mosrar dfereça
+scola umaopç�o: Ero naleitra daopç�o. Tnte nvamete.
+
+Menu
+1  Calirar
+ - Mstrarvalo calirado
+3 - ostrr difren�a
+Esolhauma pçã: Ero naleitua daopç�o. entenovaente
+
+enu:1 - alibar
+2- Motrar alorcalibado
+ - Mstra difeenç
+Esclha ma op�ão:Errona leturada op�ão Tene novmente
+
+enu:1 - alibar
+ - Mstrarvalo calbrad
+3  Mosrar dfereçaEscola umaopç�o: rro n leitra d opç�o. entenovamnte.
+
+Meu:
+ - Clibra
+2  Mosrar alorcalirado3 - ostrr dieren�a
+Ecolh umaopç�o: Ero naleitra d op�ão.Tentenovaente
+
+enu:1 - alibrr
+2- Motrar alorcalibado3 - Mstra difren�a
+Esolhauma oçã: Err na litur da oçã. Tete noament.
+Menu
+1 -Calirar
+ - Mstra valr caibrad
+3  Motrardifeenç
+Esolhauma pç�o: Ero n leiura a op�ão Tent novmene.
+Menu
+1  Calbrar
+2 - ostrr vaor clibrao
+3- Motrar ifernçaEscola um opç�o: Ero naleitra daopç�o. Tnte nvamete.
+
+Men:
+1  Calbrar2 - Mstra valo calirado3 - Mstra difeença
+Escoha ua op�ão: rro a leiura d opç�o. Tnte nvamene.
+
+Menu
+1 -Calirar
+ - Motrarvalorcalirado3 - ostrr difren�a
+Esolhauma oçã: Err na eitua da pç�o. Tete nvamene.
+
+Men:
+1- Caibrar
+2 -Mostar alor alibado3 - ostra difren�a
+Ecolhauma pç�o: Ero naleitra daopç�o. ente ovamnte.
+
+Meu:
+ - Clibrr
+2- Mosrar alorcalirado
+3 - ostrr dieren�a
+scola umaopç�o: rro a letura a op�ão.Tent novment.
+Menu
+1 -Calirar2 - ostrr valr caibrao
+3- Motrardifeenç
+Esolhauma pç�o: Ero n leiura a op�ão.Tent novment.
+Menu
+1  Calbrar2 - ostrr vaor clibrdo
+ - Mstra difeenç
+Esolha ma oçã: Err na eitua daopç�o. Tnte ovamnte.
+Meu:
+ - Clibrr
+2  Mosrar alorcalbrado
+3 -Mostar dfereçaEscoha ua op�ão:Errona liturada oçã. Tene noamene.
+
+Men:
+1  Calbrar
+2 -Mostar vlor alibado3 - ostrr difren�a
+Ecolhauma pç�o: Ero naleitra d op�ão.Tentenovaente
+
+enu:
+1 -Calirar2 - ostrr valr caibrao
+3- Mstra difren�a
+Ecolh umaopç�o: rro a leiura a oção Tete nvamete.
+Meu:
+ - Clibrr
+2- Motrarvalo calbrad
+3  Mosrar ifernça
+Esclha ma pç�o: Ero n leiura a oçã. Tete nvamete.
+Meu:
+ - Clibrr
+2- Motrarvalo calirado
+3 -Mostar dieren�a
+scola umaopç�o: Ero n leitra d opç�o. ente ovamete.
+Men:
+1- Calbrar2 - ostrr valr caibrad
+3  Mostar dferen�a
+scolh umaopç�o: Ero naleitra d op�ão. entenovamnte.
+Meu:
+1- Calbrar
+2 - ostra valr calbrad
+3 -Mostar dferen�a
+scola umaopç�o: rro n leiura d op�ão. entenovaente.
+
+Mnu:1 - Clibrr
+2  Mosrar vlor alibado3 - ostrr dieren�a
+Ecolh umaopç�o: rro a leturada op�ão Tene noament.
+Menu:
+1 -Calirar
+ - Mstra valo calbrado
+3 -Mostrr dieren�a
+Ecolh uma pç�o: Ero n leitra d op�ão.Tent novaente
+
+enu:
+1 -Calirar
+ - Mstra valr caibrao
+3- Motrar ifernçaEscoha um op�ão:Erro a leturada op�ão Tene novment.
+Menu:
+1 -Calirar
+ - Mstrarvalo calirado
+3 - ostrr difren�a
+Esolhauma pçã: Ero na eitua daopç�o. Tete nvamene.
+
+Men:
+1  Calbrar
+2 - ostrr valr caibrao
+3  Mosrar ifernça
+Escoha ua op�ão:Erro a letura a op�ão.Tentenovaente.
+
+Mnu:1 - Clibrr
+2- Motrarvalo calbrad
+3  Mostar dfereçaEscoha ua op�ão:Errona liturada oçã. Tete noamene.
+
+Men:
+1- Caibra
+2 -Mostar vlor clibrdo
+ - Mstra difeenç
+Esolhauma oçã: Ero na eitua daopç�o. Tnte ovamete.
+Meu:
+ - Clibrr
+2  Mosrar alor alibado3 - Mstra difeenç
+Esolha ma oçã: Err na eitua daopç�o.Tentenovaente
+
+enu:
+1 - alibar
+2- Motrarvalo calbrad
+3  Mosrar ifernça
+Esclha ua op�ão Errona litur da oçã. Tete noamene.
+
+Men:
+1- Calbrar
+2 -Mostrr vaor caibrao
+3- Motrar ifernça
+Escoha ua op�ão:Errona leturada op�ão Tene novment.
+Menu
+1  Calbrar2 - ostra valr caibrao
+3  Mosrar ifereçaEscoha ua op�ão:Erro a leturada oçã. Tete nvamene.
+
+Men:
+1  Calbrar
+2 -Mostrr vaor clibrdo
+3- Motrardifernça
+Esclha ma oção Err na eitua daopç�o. entenovaente
+
+enu:
+1 -Calirar2 - ostrr vaor caibrao
+3- Motrardifeenç
+Esolhauma pç�o: Ero n leiura a op�ão Tene nvamene.
+
+Men:
+1- Caibra
+2  Mostar vlor alibado
+ - Mstra difren�a
+Ecolhauma pç�o: Ero n leiura a op�ão.Tent novment.
+Menu
+1- Caibra
+2  Mosrar alorcalirado
+3 -Mostar dfereçaEscoha ua op�ão:Errona litur da pçã. Tete nvamnte.
+
+Mnu:
+ - Clibrr
+2  Mosrar alorcalirado
+3 - ostrr difren�a
+Ecolh umaopç�o: rro a letura a oçã. Tete noamene.
+
+Men:
+1- Calbrar
+2 -Mostrr vaor clibrdo
+ - Motrardifeenç
+Esolha ma op�ão Err na eitua daopç�o. Tnte ovamnte.
+
+Mnu:1 - Clibrr
+2- Motrarvalo calbrad
+3  Mosrar ifernça
+Esclha ma oçã: Ero naleitra a op�ão Tene noament.
+Menu
+1  Calbrar2 -Mostar vlor clibrdo
+ - Mstra difren�a
+Ecolh umaopç�o: Ero n leiura a op�ão Tent novmente
+
+enu:
+1 -Calirar
+ - Mstra valr caibrao
+3- Mosrar ifernça
+Esclha ua op�ão Err na eitua daopç�o. Tnte ovamnte.
+
+Mnu:1 - alibar
+2- Mstra valr caibrao
+3- Motrardifeenç
+Esolhauma pç�o: Ero n leiura a op�ão Tete nvamene.
+Meu:
+ - Clibrr
+2- Motra valr caibrao
+3- Motrardifeenç
+Esolhauma pç�o: Ero naleitra d op�ão.Tent novment.
+Menu
+1  Calbrar
+2 -Mostrr vaor clibrdo
+ - Motrardifeenç
+Esolhauma pç�o: Ero n leiura a op�ão.Tent novment.
+Menu
+1  Calirar2 - ostrr vaor caibrao
+3- Motrar ifernça
+Esclha ma oçã: Ero na eitua daopç�o. entenovamnte.
+
+Mnu:1 - alibar
+2- Motrarvalr calbrad
+3  Mostar dfereçaEscoha ua op�ão Err na eitua da pç�o. Tnte ovamnte.
+
+Mnu:1 - alibar
+ - Mstra valr clibrdo
+ - Mstrr dieren�a
+scoha ua op�ão Ero na eitua daopç�o. entenovamnte.
+
+Meu:
+ - Clibra
+2  Mostar vlor alibado3 - Mstra difren�a
+Ecolh uma pç�o: Ero n leiura a op�ão.Tentenovaente.
+
+Mnu:1 - alibar
+ - Mstra valr caibrao
+ - Mstra difren�a
+Ecolh umaopç�o: rro a letura a op�ão.Tent novment.
+Menu
+1 -Calirar
+ - Mstra valr caibrao
+3  Mosrar ifernça
+Esclha ua op�ão Err na eitua da pç�o. Tnte nvamete.
+
+Men:
+1  Calirar2 - ostrr valr caibrao
+3  Mosrar ifernçaEscoha ua op�ão:Errona litur da pç�o. Tnte ovamnte.
+
+Mnu:1 - alibar
+ - Mstrarvalo calbrad
+3  Mostar dfereça
+scola umaopç�o: rro a leturada oçã. Tene noamene.
+
+Menu
+1  Calbrar
+2 -Mostar vlor alibado
+ - Mstra difeenç
+Esolhauma oçã: Ero naleitra d op�ão. entenovaente
+
+enu:
+1 -Calirar2 - ostrr vaor clibrdo
+ - Mstra difren�a
+Ecolh um op�ão:Erro a leturada oçã. Tete nvamete.
+
+Mnu:1 - alibar
+ - Mstrarvalr caibrao
+3- Motrardifeença
+Esclha ma oç�o: Ero n leiura a op�ão.Tent novment.
+Menu
+1  Calbrar
+2 -Mostar vlorcalirado
+3 -Mostrr diereçaEscoha um op�ão:Errona litur da pç�o. Tnte ovamnte.
+Meu:
+ - Clibrr
+2- Mosrar alorcalirado3 - ostrr dieren�a
+Ecolh umaopç�o: rro a leturada op�ão Tene noamene.
+
+Men:
+1- Calbrar
+2 -Mosrar vlorcalibado3 -Mostar dfereçaEscoha ua op�ão Err na eitua da pç�o. Tnte ovamnte.
+
+Mnu:1 - alibar
+ - Mstra valr caibrao
+3- Motrar ifernçaEscoha ua op�ão:Errona litur da pç�o. Tnte ovamete.
+Meu:
+ - Clibra
+2  Mostar vlor alibado3 - ostra difren�a
+Ecolh uma pç�o: Ero n leiura a op�ão.Tentenovaente
+
+enu:
+1 -Calirar2 - Mstra valr caibrad
+3  Mosrar ifernça
+Esclha ma oçã: Ero naleitra d op�ão.Tent novment.
+Menu
+1  Calbrar
+2 - ostrr valr caibrao
+3- Mosrar ifernça
+Escoha ua op�ão Errona litur da oçã. Tete nvamete.
+Meu:
+1- Caibra
+2  Mosrar vlor alibrdo
+ - Mstrardifeenç
+Esolhauma oçã: Ero naleitra daopç�o. ente ovamnte.
+
+Mnu:1 - alibar
+ - Mstra valr caibrao
+3- Mstra difren�a
+scola ua op�ão Ero naleitra d op�ão Tene noamene.
+
+Meu:
+ - Clibrr
+2- Mstra vaor clibrdo
+ - Mstra difren�a
+Ecolh umaopç�o:Errona litur daopç�o. ent novmene.
+
+Men:
+1- Caibra
+2  Mosrar alo calbrad
+3  Mosrar ifernça
+Esclha ma oçã: Ero naleiura a op�ão Tene noamete.
+Meu:
+ - Clibrr
+2- Motrarvalo calbrad
+3  Mosrar ifernça
+Esclha ua op�ão Err na eitua da pç�o. Tnte ovamnte.
+
+Mnu:1 - Clibrr
+2- Motrarvalo calbrad
+3 -Mostar dfereçaEscoha um op�ão:Erro a leturada pç�o. Tete nvamete.
+Meu:
+ - Clibrr
+2- Motrarvalo calbrado
+3 -Mostar dfereçaEscoha ua op�ão Err na eitua daopç�o. entenovaente
+
+enu:
+1 -Calbrar
+2 -Mostar vlor alibado3 - ostrr dieren�a
+scolh umaopç�o: rro a leturada oçã. Tete nvamete.
+Meu:
+ - Clibrr
+2- Mosrar alorcalirado
+3 -Mostrr dieren�a
+Ecolh umaopç�o: rro n leiura a op�ão Tene novment.
+Menu:
+1 -Calirar2 - ostra valr caibrao
+3  Mosrar ifernça
+Esclha ma oçã: Err na eitua da pç�o. Tnte ovamnte.
+Meu:
+ - Caibra
+2  Mosrar alorcalirado
+3 -Mostar dfereçaEscoha ua op�ão:Errona liturada oçã. Tete nvamene.
+
+Men:
+1- Caibrar
+2 -Mostar vlor alibado3 - ostrr dieren�a
+scola um op�ão:Errona litur da pç�o. Tnte ovamnte
+
+enu:
+1 -Calirar2 - ostar vlorcalirado
+3 -Mosrar ifernç
+Esolh umaop�ão:Err na eitua d op�ão.Tene noamene.
+
+Meu:
+ - alibar
+ - Mstrr vaor alibado3 - ostar dfernça
+Esolhauma pç�o: rro a letur da pç�o. entenovment.
+
+Men:
+1- Clibrr
+ - Mstra vaor clibado3 - ostrr dfereçaEscoha ua op�ão Err naleitra d op�ão.Tene noamene.
+
+Meu:
+ - Clibar
+ - Mstra valr clibrdo
+ - ostrr diereçaEscoha ma oçã: Ero n leiura a oçã. Tnte ovamnte.
+
+enu:
+1 -Calirar
+2 -Mostar alorcalbrad
+3- Motrardifren�a
+Ecola um op�ão:Err na eitua daop�ão.Tent novmene.
+
+Men:
+1- Caibra
+2- Motrarvalo caibrao
+3- Mstra difren�a
+Ecolh um op�ão:Errona litur da pç�o. Tntenovaente
+
+enu:
+1  Calbrar
+2  Mosrar alorcalbrad
+3  Mosrardifeenç
+Esolh umaopç�o: rro a letur da pç�o. Tnte ovaente
+
+enu:
+1  Calbrar
+2 -Mosrar alorcalbrad
+3  Mosrardifeenç
+Esolh umaopç�o: rro a leturada oçã. Tete nvamete.
+Meu:
+ - Clibrr
+2- Mstra valr caibrao
+3- Motrardifren�a
+Esolhauma pç�o: Ero n leiura a op�ão Tene novment.
+Men:
+1  Calbrar
+2  Mostar vlorcalirado3 - ostrr dieren�a
+Ecolh umaopç�o: rro a leiura a op�ão Tene noamene.
+
+Men:
+1- Caibra
+2  Mosrar alorcalirado
+3 -Mostar dfereçaEscoha ma oçã: Ero naleitra d op�ão Tene nvamete.
+Meu:
+ - Clibrr
+2- Motra valr caibrao
+3- Motra difren�a
+Ecolh umaopç�o: Ero n leiura a op�ã. Tete nvamene.
+
+Men:
+1- Caibra
+2  Mosrar alorcalirado
+3 -Mostar dfereçaEscoha ua op�ão Err na eitua daopç�o. entenovaente
+
+enu:
+1 -Calirar2 - ostrr vaor clibrdo
+ - Mstrr dieren�a
+scola um op�ão:Errona litur da pç�o. Tnte ovamnte.
+
+Mnu:1 - alibar
+ - Mstra valr calbrad
+3 -Mostar dieren�a
+Ecolh umaopç�o: Ero n leiura a op�ão.Tent novment.
+Menu:
+1 -Calirar2 -Mostar vlor alibado
+3 -Mostar dfereça
+Esclha ma oçã: Ero n leiura a op�ão Tene nvamete.
+Meu:
+ - Clibrr
+2- Motrarvalo calbrad
+3  Mosrardifeenç
+Ecolh umaopç�o:Errona litua daopç�o.Tent novment.
+Menu
+1  Caibra
+2  Mosrarvalo calbrao
+3- Motrardifeenç
+Ecolh umaop�ão:Errona eitua daop�ão.Tent novment.
+Menu
+1  Calbrar
+2 -Mostrr vaor alibado3 - Mstra difren�a
+scola um op�ão Err na eitua daopç�o. entenovaent.
+Menu
+1  Caibra
+2  Mosrarvalo calbrao
+3- Motrardifeen�a
+Ecolh umaop�ão:Errona eitua d op�ão.Tene noamene.
+
+Men:
+1- Caibra
+2  Mosrarvalo calbrad
+3  Mosrardifeenç
+Esolhauma pç�o: rro a litur da pç�o. entenovment.
+
+Men:
+ - alibar2 - ostar vlor alirado
+3 -Mosrar ifeenç
+Esolhauma pç�o: Ero n leturada pç�o. Tnte ovaente
+
+enu:
+1  Calbrar
+2 -Mostar vlor alibado3 - ostar dfereça
+Esclha ma oç�o: Ero n leiura a oçã. Tete nvamete.
+Meu:
+ - Clibrr
+2- Motrarvalo calbrad
+3  Mosrar ifernçaEsclha ma op�ão Err naleitra d op�ão.Tene noamene.
+Meu:
+ - Clibrr
+2- Motrarvalo calbrad
+3  Mosrar ifernç
+Esolhauma pç�o: Ero n leturada oçã. Tnte ovamnte
+
+enu:
+1  Calbrar
+2  Mosrar alo calbrad
+3  Mosrar ifernç
+Esolhaumaopç�o: rrona litua daopç�o. entenovaent.
+Menu
+1  Caibra
+2  Motrarvalo calbrad
+3- Motrardifeenç
+Ecolh umaop�ão:Errona eitua daop�ão.Tent noamene.
+
+Men:
+1- Clibrr
+2- Mstra vaor clibado3 - ostrr dfereça
