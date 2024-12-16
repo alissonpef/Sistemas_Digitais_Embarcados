@@ -1,528 +1,0 @@
-ets Jul 29 2019 12:21:46
-
-rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
-configsip: 0, SPIWP:0xee
-clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
-mode:DIO, clock div:2
-load:0x3fff0030,len:7176
-load:0x40078000,len:15564
-ho 0 tail 12 room 4
-load:0x40080400,len:4
-load:0x40080404,len:3904
-entry 0x40080640
-[0;32mI (31) boot: ESP-IDF v5.3.1 2nd stage bootloader[0m
-[0;32mI (31) boot: compile time Oct 14 2024 17:07:05[0m
-[0;32mI (31) boot: Multicore bootloader[0m
-[0;32mI (35) boot: chip revision: v3.1[0m
-[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
-[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
-[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
-[0;32mI (53) boot: Enabling RNG early entropy source...[0m
-[0;32mI (58) boot: Partition Table:[0m
-[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
-[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
-[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
-[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
-[0;32mI (92) boot: End of partition table[0m
-[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ae0ch ( 44556) map[0m
-[0;32mI (120) esp_image: segment 1: paddr=0001ae34 vaddr=3ffb0000 size=02364h (  9060) load[0m
-[0;32mI (123) esp_image: segment 2: paddr=0001d1a0 vaddr=40080000 size=02e78h ( 11896) load[0m
-[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16e08h ( 93704) map[0m
-[0;32mI (166) esp_image: segment 4: paddr=00036e30 vaddr=40082e78 size=0abf0h ( 44016) load[0m
-[0;32mI (190) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (190) boot: Disabling RNG early entropy source...[0m
-[0;32mI (202) cpu_start: Multicore app[0m
-[0;32mI (211) cpu_start: Pro cpu start user code[0m
-[0;32mI (211) cpu_start: cpu freq: 160000000 Hz[0m
-[0;32mI (211) app_init: Application information:[0m
-[0;32mI (214) app_init: Project name:     project-name[0m
-[0;32mI (219) app_init: App version:      1[0m
-[0;32mI (223) app_init: Compile time:     Oct 14 2024 17:07:00[0m
-[0;32mI (229) app_init: ELF file SHA256:  9bcbc0484...[0m
-[0;32mI (235) app_init: ESP-IDF:          v5.3.1[0m
-[0;32mI (239) efuse_init: Min chip rev:     v0.0[0m
-[0;32mI (244) efuse_init: Max chip rev:     v3.99 [0m
-[0;32mI (249) efuse_init: Chip rev:         v3.1[0m
-[0;32mI (254) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (261) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
-[0;32mI (267) heap_init: At 3FFB2C30 len 0002D3D0 (180 KiB): DRAM[0m
-[0;32mI (273) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
-[0;32mI (280) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
-[0;32mI (286) heap_init: At 4008DA68 len 00012598 (73 KiB): IRAM[0m
-[0;32mI (294) spi_flash: detected chip: generic[0m
-[0;32mI (297) spi_flash: flash io: dio[0m
-[0;33mW (301) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
-[0;32mI (315) main_task: Started on CPU0[0m
-[0;32mI (325) main_task: Calling app_main()[0m
-[0;32mI (325) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| In
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: [0;32mI (335) main_task: Returned from app_main()[0m
-
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: [0;31mE (4575) HC-SR04: Tempo de espera excedido[0m
-Erro na calibração.
-
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: [0;31mE (7985) HC-SR04: Tempo de espera excedido[0m
-Erro na calibração.
-
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: [0;31mE (11485) HC-SR04: Tempo de espera excedido[0m
-Erro na calibração.
-
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: Nenhum valor calibrado encontrado.
-
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: [0;31mE (18545) HC-SR04: Tempo de espera excedido[0m
-Erro na calibração.
-
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: [0;31mE (20645) HC-SR04: Tempo de espera excedido[0m
-Erro na calibração.
-
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medi istância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - Mostrar alor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Menu:
-1 - Calibrar
-2 - ostrar valor calibrado
-3 - Medir distância
-Escolha uma opção: 
-Meu:
-1 - Calibrar
-2 - Mostrar valor clibrado
-3 - Medir distância
-Escolh uma opção: 
-Menu:
- - Calibrar
-2 - Mostrarvalor calibrado
-3 - Mdir distância
-scolha uma op�ão: 
-Menu:
-1 - Clibrar
-2 - Mostra valor calibrad
-3 - Medir disância
-Escolha uma op�ão: 
-Menu:
- - Calibrar2 - Mostrar vaor calibrado
- - Medir dist�ncia
-Ecolha uma oção: 
-Meu:
-1 - Calibar
-2 - Mostrr valor calibado
-3 - Medr distânci
-Escolhauma opção:
-Menu:
-1  Calibrar
- - Mostrar alor calibado
-3 - Mdir distâcia
-Escola uma op�ão: 
-Mnu:
-1 -Calibrar2 - Mostar valor alibrado3 - Medirdistânca
-Esolha ua opç�o: 
-Meu:
-1  Calibar
-2 -Mostra valor alibrao
-3 - edir ditância
-Ecolha ua opçã: 
-Men:
-1 - alibrar2 - Mosrar vaor calirado
-3- Medi distâcia
-����������������������������������������������������������������ibrr
-2 -Mostra valo calibado
-3- Medi dist�ncia
-Ecolha ma op�ão: 
-Menu:
-1 - Clibrar2 - Motrar vlor calbrado3 - Meir dist�ncia
-Escola uma pçã: 
-Mnu:
-1- Calbrar2 - Mstrarvalorcalibado
- - Meir ditânca
-Ecola um op�ão:
-Meu:
- - Clibra
-2  Mosrar alorcalirado
-3 -Medi disânca
-scola um op�ão: 
-Men:
-1  Calbrar2 - ostra valr caibrad
-3  Medr disânca
-scola um op�ão: 
-Men:
-1- Caibra
-2  Mosrar alorcalirado3 - edirdist�nci
-Esclha ma oçã: 
-enu:
-1  Calbrar
-2 -Mostar vlor alibado3 - edirdist�nci
-Escoha ua op�ã: 
-enu:
-1 -Calirar2 - ostrr vaor caibrdo
- - Mdir ist�nci
-Ecola ua oçã: Men:
- - Clibar
- - ostrr vlorcalirad
-3- Meir ist�nci
-Esolh umaopç�o: 
-Meu:
- - Clibrr
- - Mstra valr clibrdo
- - Mdirdist�nca
-Esolh umaop�ão 
-enu:
-1  Caibrr
- - Mstrr vlorcalbrao
- - Mdirdisânia
-Esclhaumaop�ão 
-Mnu:
-1  Caibrr
-2- Mstrr vlorcalbrao
- - edi disânia
-sclhaumaop�ã: Meu:1  Caibrr2 -Mosra vaorcalbrao3 -Medr ist�nia
-Esclh um oç�o:
-Mnu
-1- Clirar
-2  Mstrr alo caibado
-3  Mdirditâcia
-Esola ua oç�o:
-Mnu
-1- Clirar
-2- Mstar alr clirad
- - edi dst�nca
-Ecola maop�ã: Meu:
-1  Clibar
-2  Mstrr alo clibad
-3- edi dst�nca
-sclhaum oç�o:
-en:1 -Caibar
-2  Mstarvalr albrao3  Mdirditâci
-Ecohaumaop��o:
-en:1  Caibar
-2- osrarvaorcaibado
-3- edr ist�nia
-sclh ua oç�o Meu:
-1- albrr2  Mstarvaorcaibad
- -Meirdit�nca
-Esola maop��o:
-en:1  Clira
- - otrr alr clirao3  Mdi dst�nia
-Eclh um oç�o Meu:
-1- albrr2  Mstarvaorcaibad
- -Meirdit�nca
-sclh ua p�ã: 
-Mnu1  Clira
- -Motrr alr alirao3  Mdi dst�nia
-sclh ua p��o:
-en:
-1- albrr
-2- osra alr albrd
- -Mei dst�nia
-Eclh uaop��o:Meu:
- -Caira
-  Mstarvlo clirdo
-3- eirdit�nia
-scla maoç�o 
-Mnu1  Clirr2  osrr alr aibad3  edrdit�nia
-Esohaum p�ã: 
-en:1- albar
- -Motarvao clirdo
-3-Meirdit�nia
-sohaua p��o Mn:1- aira2  osrrvao clbad3  edrdit�ni
-sohaua p��o Mnu1  albar
-  Msra alrclirdo
- -Mdi it�nca
-Eclh maoç�: 
-en:
-1-Caira2  osrr aorcairao
-3-Meirdst�ci
-solaum p��o Mnu1  albar
- -Msra alrcairdo
- -Mdi is�nia
-Ecoh uaoç�: 
-en:
- -Clirr
-2-Mota vlr airao
-3-Mei is�nca
-sclaum p��o 
-Mn:
-1-Cairr
-2-Mota vlrcairdo
-  edrdst�ca
-Ecla m p��o 
-Mn:
-1-Clbrr
- -Msra aorclbad3- ei ds�nca
-soh m o��o 
-Mn:
-  Clba
-  otrrvlr aird
-  ei ds�ni
-soh mao��o 
-Mn:
-  Clba2  ota vlrclbad3-Mdr it�ca
-soh mao��o 
-eu
-  airr
-  Msrrvlrclbao
-3-Mdrds�ni
-solauao��o 
-eu:
-  airr
-  otarvlrclbao
-  edrds�ni
-Eclh m p��:Meu1-Clbrr
-  ota alrclbao
-  Mdrds�ni
-Eclauao��o:Mn:
-  airr
-2-Msrrvlrclbao
- -Mdrds�ni
-soh m p��:Mn:
-1-Clba2-Msrr ao aird3-Mdrds�nca
-soh m p��:Mn:
-  airr
-  ota vlrclbao
-  ei it�ca
-soh m p��:Mn:
-  airr
-  ota ao aird3-Mdrds�ni
-soh m ��o 
-eu1-Clba2-Msrrvlraird3-Mdrds�ni
-Eclauao��o 
-eu  airr
-  ota ao aird  ei it�ca
-soauao��o 
-e:
-  airr
-  srrvlrclbao3-Mdrds�na
-Ecl m p��:
-eu1-Cirr
-  orrvlrclrd3-Mdrds�ca
-Ecl m p�o 
-eu1-Cirr
-  otrvlrclba3-Mdrds�ca
-soh mo��o 
-n:
- Clba
-  otrvlrcird3-Mi it�i
-EcoA mo��o:jMn:1-Clbr
-  orrvlr ����5
-  drds�ca
-Eclam p�o 
-eu
-  aba2-ota lrclbrN�53-ei i�ni
-sohuaoã:Mn1-Cirr
- Msrrvo aiao
-  drds�ca
-Ecl m ��o Mn:
-1j����5
- -j�хao abao3-Md it�i
-Ecl m p�o Mn:
--Clbr
-  MkхvaK ��ɑ5
- -j��it�c
-Ech ao�� 
-n:1-CaK�52 Kjх رciro
--Mi isna
-Eohuaop��� 
-enS:GHPj���5
--MstG� ؽcirdo
- Md it�ni
-sc+ ԅ �:
-e:
--Clrr2-Mo3�vlo# ��ɽ5  dritni
-Es�+ua ��o Mn1 aib(5
- j#j�х����%ciro
--Mi s�ca
-clh �o�� 
-n:1-aia
- j#j��� ��aib(�Hhj�dt�n3

@@ -1,72 +1,0 @@
-ets ul 29201912:2146
-rst:01 (POERON_ESET)boot:x13 (PI_FAT_FLAH_BOO)
-cofigsi: 0, PIWP:xee
-lk_dr:0x00q_drv0x00,_drv:x00,cs_drv:x00,h_drv:x00,w_drv:x00
-ode:IO, cock dv:2load:x3fff030,en:716
-lod:0x407800,len15564
-ho  tail12 rom 4
-oad:04008000,le:4
-lad:0x008004,le:3904
-entr 0x408064
-[0;2mI 31) bot: SP-IF v5..1 2n stae booloadr[0m
-[032mI(31) oot:comple tme Ot 14 024 7:07:5[0
-[032mI 31) oot: ulticre botloder[m
-0;32I (3) bot: chp reisio: v31[0
-[032mI(39)bootesp3: SP Sped     : 4MHz0m
-[0;32I (44 boo.esp3: SP Mode     : DO[0
-[032mI(48) oot.sp32 SPI lashSize: 2M[0m
-[032mI(53)boot:Enabing NG erly ntrop souce..[0m
-[032mI(58)boot Paritio Tabe:[m
-[;32m (62 boo: ##Labe          Usge        Tye STOffst   engt[0m
-[032mI(69)boot  0 vs           WiFidata      01 2 000900 00000000m
-[0;32I (7) bot:   phyinit       F daa        01 1 000f00 0001000[0m[0;2mI 84) oot: 2 fatory        actoy ap     00 0 00000000010000[m
-0;32I (9) bot: Ed ofparttiontabl[0m
-[032mI(96)esp_iage:segmnt 0 padr=001002 vadr=3f0002 siz=0aech (4468) ma[0m
-0;32m (12) es_imae: sement1: pddr=001ab4 vadr=3fb000 sie=0274h   907) lad[m
-0;32I (13) ep_imge: egmet 2:padd=0001230 addr4008000 sze=0de8h( 1152) lad[m
-0;32I (10) ep_imge: egmet 3:padd=0000020 addr400d020 ize=6fac ( 9424) ap[m
-[;32m (16) es_imae: sgmen 4:padd=0006fd4vadd=4002de8 ize=ac80 ( 4160)load[0m
-0;3mI (91) oot:Loadd ap fro paritio at ffse 0x10000m
-[0;3mI (91) oot: isabing NG erly ntroy sorce..[0m
-0;3mI (03) pu_sart Mulicor app[0m
-[032mI(21) cp_stat: Po cu strt uer cde0m
-[0;3mI 211)cpu_tar: cp fre: 1000000 z[0
-[;32I (21) pp_iit: pplcatin inormtion[0
-[;32I (24) pp_iit:Projct ame:    rojct-ame0m[0;2mI(21) ap_int: Ap vesio:     1[0m[0;2mI(224 appini: Copil tim:    Oc 14 024 7:0700[m
-[0;3mI (30) pp_iit: LF ile HA25:  36132b4..[m
-0;3mI (35) pp_nit:ESPIDF:       v5..1[m
-[0;3mI (40)efus_ini: Mn chp rv:    v00[m
-0;32I (44) fuseinit Ma chi re:    v3.9 0m
-[0;2mI 249)efue_int: Cip ev:       v31[0
-[;32m (24) hep_int: Iitilizig. RM avilale fr dyamicalloatin:[m
-0;32I (22) eap_nit:At 3FAE60 le 0001920(6 KB): RAM0m
-[0;3mI (67) eap_nit:At 3FB2C8 le 002D3B8(180KiB) DRM[0
-[;32m (27) hep_int: A 3FF0440len 0003E0 (4 Ki): /IRA[0m
-[032m (28) hep_iit: t 3FE435 le 000BCB0(111KiB) D/RAM0m
-[0;3mI (86) eapinit At 008D68 ln 001259 (73KiB) IRA[0m
-[032mI(29) sp_flah: dtectd chp: gneri[0m
-[;32m (29) sp_flah: fash o: do[0
-[;33m (30) sp_flah: Dteced sze(496k)largr thn th siz in he bnaryimag heaer(248k) Usig th siz in he bnaryimae heder.[0m[0;2mI 315)maintask Strtedon CU0[m
-0;3mI (25) aintask Calingapp_ain)[0
-[;32I (35) gio:GPIO4]| npuEn: | Ouputn: 1 OpeDrai: 0|Pullp: | Puldow: 0 In[;32I (35) min_tsk: etuned romapp_ain([0
-[031mE(135) C-SR4: empode sper exedio[m
-0;3mE 133) HCSR0: Ero a litua dosenor.[0m
-[;3mE 245) C-R04 Tmp deeseraexedio0m[;3mE 245) C-R04 Ero a eitrado enor.[0
-[;3mE(335 HCSR4:Tepode spraexeddo[0m
-0;1mE(335 H-SR4:Ero a eitradosenor[m
-0;1m (63) C-R4:Tepodeeser eceid[m0;1m (63) C-R0: rr n litradosnsr.[0
-0;1E 575 H-S0: emodeesea xcddo[m[;1m (75)H-S04 rr a eiua oseso.[0
-[;1m 635 C-R4 Tmod epraecdio[00;1E 63) CSR4 rr a etrad sno.0
-[;3m 795 C-R4 Tmodeepr ecddo[m
-03mE(95 H-R4:Er n etrad eno.[m
-[;1E(03)H-R4 ep eeseaecdd00;1E(05 CS0:Er n etr osno.[0
-[;1E(03)H-R4 mod seaecdd0;1E(03)H-R4 ron etr osno.0
-03E(13)CS0:Tmod pr xeio003m 13)H-R4 r aliuadsno.[m
-[;m 13)H-R4:T)�depr cdd0
-[;1E135 -R4Er aetr  es.[m
-[;3Fj )��BS4 emdeprecdi�k�j501E145 H2-*�*ɽ + ����do��ͽ%m
-[3mE��JB-*�Te�deeaxed&��k�j50;j )��B-**�*���rltra"� W�k�%m
-;m (�JB-%�m e ���)8*ᕑ*��kj5
-01E )���)	B-**� � ���� � ̹��K.<0m
-[3E13)  -*Te� � ��ex)V��k�j5
-���j )��BPi�I*�� + ��*WNo ���.4m
